@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+    <head>
+        <title> О нас </title>
+        <meta charset="UTF-8"> </meta>
+        <meta name="description" content="Сайт о юридических услугах"> </meta>
+        <link rel="stylesheet" href="css/style.css"> 
+        <style> 
+            body {
+                background: url(judge_gavel.jpg);
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    </head> 
+    <body>
+        <form action="#" method="POST"
+            enctype="multipart/form-data">
+            <h1>
+                <legend>Для клиентов и сотрудников</legend>
+            </h1>
+            <p>
+                <label>Введите Вашу фамилию:
+                <input type="text" minlength="3" maxlength="50" placeholder="Ваша фамилия" required></label>
+            </p>
+            <p>
+                <label>Введите Ваше имя:
+                <input type="text" placeholder="Ваше имя" required></label>
+            </p>
+            <p>
+                <label> Вам уже есть 18 лет? </label>
+                <select>
+                    <option>Да</option>
+                    <option>Нет</option>
+                </select>
+            </p>
+            <p>
+                <label> Ситуация касается: </label>
+                <select>
+                    <option>Лично меня</option>
+                    <option>Близких родственников</option>
+                    <option>Моих знакомых</option>
+                </select>
+            </p>
+            <p>
+                <label> Вы являетесь: </label>
+                <select>
+                    <option>Физическим лицом</option>
+                    <option>Представителем юридического лица</option>
+                    <option>Индивидуальным предпринимателем</option>
+                </select>
+            </p>
+            <p>
+                <label>Ваш e-mail:
+                <input type="email" placeholder="Ваш e-mail" required> </label>
+            </p>
+            <p>
+            <label>Введите Описание Вашей ситуации: </label>
+            </p>
+            <p>
+                <textarea name="comment" style="width: 1000px; height: 600px; placeholder="Введите Описание Вашей ситуации:" minlength="30" maxlength="50000">
+                </textarea>
+            </p>
+            <p>
+                <input type="submit"
+                value="Отправить данные формы">
+            </p>
+            <p>
+                <input type="reset"
+                value="Очистить поля формы">
+            </p>
+        </form>
+        <form enctype="multipart/form-data"  method="post">
+            <p> <input type="file"  name="f" accept="image/jpg">
+            <input type="submit" value="Отправить"></p>
+        </form>              
+    </body>
+</html>

@@ -1,0 +1,53 @@
+.h4 {
+    font-size: 20px;
+}
+
+.h1 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.h2 {
+    font-size: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.h5 {
+    color: rgb(8, 0, 0);
+    font-size: 27px;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.h6 {
+    color: rgb(208, 243, 8);
+    font-size: 28px;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.h7 {
+    color: rgb(208, 243, 8);
+    font-size: 28px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.h8{
+    color: rgb(208, 243, 8);
+    font-size: 28px;
+    text-align: left;
+    font-style: italic;
+}
+
+.h9 {
+    color: rgb(2, 255, 179);
+    font-size: 28px;
+    text-align: left;
+    font-style: italic;
+}
